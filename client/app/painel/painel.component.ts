@@ -10,7 +10,7 @@ export class PainelComponent implements OnInit {
     @Input() titulo: string;
 
     ngOnInit() {
-        let maxChar = 3;
+        let maxChar = 7;
         this.titulo = this.titulo.length > maxChar 
             ? this.titulo.substr(0, maxChar) + '...' 
             : this.titulo;
