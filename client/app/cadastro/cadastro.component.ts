@@ -3,6 +3,7 @@ import { FotoComponent } from '../foto/foto.component';
 import { Http, Headers } from '@angular/http';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
+
 @Component({
     moduleId: module.id,
     selector: 'cadastro',
